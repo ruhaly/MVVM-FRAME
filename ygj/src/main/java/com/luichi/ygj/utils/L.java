@@ -48,7 +48,7 @@ public abstract class L {
         return Logger.init(tag)
                 .methodCount(3)
                 .hideThreadInfo()
-                .logLevel(LogLevel.NONE);
+                .logLevel(LogLevel.FULL);
     }
 
     public static void log(int priority, String tag, String message, Throwable throwable) {
