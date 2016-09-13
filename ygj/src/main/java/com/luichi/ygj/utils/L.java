@@ -7,7 +7,7 @@ import com.orhanobut.logger.Settings;
 
 
 public abstract class L {
-    private static final String LOG_PREFIX = "ygj_";
+    private static final String LOG_PREFIX = "YGJ_";
     private static final int LOG_PREFIX_LENGTH = LOG_PREFIX.length();
     private static final int MAX_LOG_TAG_LENGTH = 23;
 
