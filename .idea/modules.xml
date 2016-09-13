@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YGJ-NEW.iml" filepath="$PROJECT_DIR$/YGJ-NEW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ygj/ygj.iml" filepath="$PROJECT_DIR$/ygj/ygj.iml" />
+    </modules>
+  </component>
+</project>
