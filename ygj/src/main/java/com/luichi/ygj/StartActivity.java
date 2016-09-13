@@ -21,7 +21,7 @@ public class StartActivity extends BaseActivity<ActivityMainBinding> {
     }
 
     public void dClick(View view) {
-        L.e("马天2");
+//        L.e("马天2");
         Utils.snack(this, "asdfasdf");
     }
 
