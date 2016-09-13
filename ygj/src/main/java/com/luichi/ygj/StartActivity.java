@@ -14,8 +14,8 @@ public class StartActivity extends BaseActivity<ActivityMainBinding> {
     }
 
     @Override
-    public void initData() {
-
+    public void initView() {
+        dataBinding.button.setText("你好");
     }
 
     public void dClick(View view) {

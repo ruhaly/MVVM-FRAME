@@ -11,12 +11,13 @@ import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
 
 public abstract class BaseActivity<T extends ViewDataBinding> extends RxAppCompatActivity {
 
-    T dataBinding;
+    public T dataBinding;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         dataBinding = DataBindingUtil.setContentView(this, getLayoutId());
+        initView();
     }
 
     @Override
@@ -26,5 +27,5 @@ public abstract class BaseActivity<T extends ViewDataBinding> extends RxAppCompa
 
     public abstract int getLayoutId();
 
-    public abstract void initData();
+    public abstract void initView();
 }
